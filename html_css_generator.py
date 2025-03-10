@@ -89,9 +89,9 @@ for slide_num, _, _, _ in hyperlinks:
 # 5. CSS 코드 생성
 css_code = '''.icon-size {
   /* 기본 사이즈: 9:16, 오프셋 비율에 따라 조정 */
-  --offset-left: 0%;      /* Left 오프셋 기본값 */
-  --offset-top: 0%;     /* Top 오프셋 기본값 */
-  --offset-ratio: 1.0;     /* 오프셋 비율 기본값: 1.0 (배수) */
+  --offset-left: -5%;      /* Left 오프셋 기본값 */
+  --offset-top: -8%;     /* Top 오프셋 기본값 */
+  --offset-ratio: 0.7;     /* 오프셋 비율 기본값: 1.0 (배수) */
   --base-width: 9%;        /* 기본 너비 */
   --base-height: 16%;      /* 기본 높이 */
   width: calc(var(--base-width) * var(--offset-ratio));
