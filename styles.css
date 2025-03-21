@@ -16,11 +16,40 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* 로고 스타일 */
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+/* 모바일에서 로고 크기 조정 */
+@media (max-width: 767px) {
+  .logo img {
+    width: 200px;
+  }
+}
+
 /* 메인 제목 스타일 */
 h1 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+/* 모바일에서 제목 스타일 조정 */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 22px;
+    white-space: nowrap;
+  }
 }
 
 /* QR 코드 링크 섹션 스타일 */
@@ -40,8 +69,11 @@ h1 {
   transition: color 0.3s ease;
 }
 
-.qr-section a:hover {
-  color: #0056b3;
+/* 모바일에서 QR 코드 링크 글자 크기 조정 */
+@media (max-width: 767px) {
+  .qr-section a {
+    font-size: 18px;
+  }
 }
 
 /* VR Tour 섹션 스타일 */
@@ -59,10 +91,16 @@ h1 {
   display: inline-block;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.vr-tour a:hover {
-  background-color: #0056b3;
+/* 모바일에서 VR 투어 버튼 글자 크기 조정 */
+@media (max-width: 767px) {
+  .vr-tour a {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
 }
 
 /* 시군 제목 스타일 */
@@ -70,6 +108,14 @@ h2 {
   color: #555;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 24px;
+}
+
+/* 모바일에서 시군 제목 글자 크기 조정 */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 20px;
+  }
 }
 
 /* 시군 목록 스타일 */
@@ -79,6 +125,19 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
+}
+
+/* 모바일에서 한 줄에 3개씩 표시 */
+@media (max-width: 767px) {
+  .region-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .region-list a {
+    font-size: 16px;
+    padding: 8px;
+  }
 }
 
 /* 링크 아이템 스타일 */
@@ -167,55 +226,18 @@ h2 {
   z-index: 3;
 }
 
-/* VR 투어 페이지 스타일 (vrtour.html용) */
-.vr-intro {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.vr-intro p {
-  font-size: 16px;
+/* 저작권 표시 스타일 */
+.copyright {
+  margin-top: 20px;
+  text-align: right;
   color: #666;
-  line-height: 1.6;
-}
-
-.vr-links {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.vr-links p {
   font-size: 14px;
-  color: #777;
-  margin-bottom: 20px;
 }
 
-.vr-button {
-  text-decoration: none;
-  color: white;
-  background-color: #28a745;
-  font-size: 20px;
-  padding: 15px 30px;
-  display: inline-block;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.vr-button:hover {
-  background-color: #218838;
-}
-
-.back-link {
-  text-align: center;
-}
-
-.back-link a {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.back-link a:hover {
-  color: #0056b3;
+/* 모바일에서 저작권 표시 조정 */
+@media (max-width: 767px) {
+  .copyright {
+    font-size: 12px;
+    text-align: center; /* 모바일에서는 가운데 정렬 */
+  }
 }
