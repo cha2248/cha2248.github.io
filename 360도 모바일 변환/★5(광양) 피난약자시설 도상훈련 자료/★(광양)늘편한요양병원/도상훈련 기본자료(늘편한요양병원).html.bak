@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>광양</title>
+    <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="도상훈련 기본자료(늘편한요양병원)icons.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide active">
+        <img src="도상훈련 기본자료(늘편한요양병원)/1.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/2.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/3.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/4.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/5.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/6.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-6-1" />
+        <img src="360.png" class="icon-size icon-6-2" />
+        <img src="360.png" class="icon-size icon-6-3" />
+        <img src="360.png" class="icon-size icon-6-4" />
+        <img src="360.png" class="icon-size icon-6-5" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/7.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-7-1" />
+        <img src="360.png" class="icon-size icon-7-2" />
+        <img src="360.png" class="icon-size icon-7-3" />
+        <img src="360.png" class="icon-size icon-7-4" />
+        <img src="360.png" class="icon-size icon-7-5" />
+        <img src="360.png" class="icon-size icon-7-6" />
+        <img src="360.png" class="icon-size icon-7-7" />
+        <img src="360.png" class="icon-size icon-7-8" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/8.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-8-1" />
+        <img src="360.png" class="icon-size icon-8-2" />
+        <img src="360.png" class="icon-size icon-8-3" />
+        <img src="360.png" class="icon-size icon-8-4" />
+        <img src="360.png" class="icon-size icon-8-5" />
+        <img src="360.png" class="icon-size icon-8-6" />
+        <img src="360.png" class="icon-size icon-8-7" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/9.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-9-1" />
+        <img src="360.png" class="icon-size icon-9-2" />
+        <img src="360.png" class="icon-size icon-9-3" />
+        <img src="360.png" class="icon-size icon-9-4" />
+        <img src="360.png" class="icon-size icon-9-5" />
+        <img src="360.png" class="icon-size icon-9-6" />
+        <img src="360.png" class="icon-size icon-9-7" />
+        <img src="360.png" class="icon-size icon-9-8" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/10.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-10-1" />
+        <img src="360.png" class="icon-size icon-10-2" />
+        <img src="360.png" class="icon-size icon-10-3" />
+        <img src="360.png" class="icon-size icon-10-4" />
+        <img src="360.png" class="icon-size icon-10-5" />
+        <img src="360.png" class="icon-size icon-10-6" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/11.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-11-1" />
+        <img src="360.png" class="icon-size icon-11-2" />
+        <img src="360.png" class="icon-size icon-11-3" />
+        <img src="360.png" class="icon-size icon-11-4" />
+        <img src="360.png" class="icon-size icon-11-5" />
+        <img src="360.png" class="icon-size icon-11-6" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/12.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-12-1" />
+        <img src="360.png" class="icon-size icon-12-2" />
+        <img src="360.png" class="icon-size icon-12-3" />
+        <img src="360.png" class="icon-size icon-12-4" />
+        <img src="360.png" class="icon-size icon-12-5" />
+        <img src="360.png" class="icon-size icon-12-6" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/13.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-13-1" />
+        <img src="360.png" class="icon-size icon-13-2" />
+        <img src="360.png" class="icon-size icon-13-3" />
+        <img src="360.png" class="icon-size icon-13-4" />
+        <img src="360.png" class="icon-size icon-13-5" />
+        <img src="360.png" class="icon-size icon-13-6" />
+        <img src="360.png" class="icon-size icon-13-7" />
+        <img src="360.png" class="icon-size icon-13-8" />
+        <img src="360.png" class="icon-size icon-13-9" />
+        <img src="360.png" class="icon-size icon-13-10" />
+        <img src="360.png" class="icon-size icon-13-11" />
+        <img src="360.png" class="icon-size icon-13-12" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/14.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/15.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/16.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="도상훈련 기본자료(늘편한요양병원)/17.jpg" class="img-sizes" />
+      </div>
+
+      <div id="progressBarContainer">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <iframe id="iframeDisplay"></iframe>
+    <button type="button" id="prevSlide" style="display: none"></button>
+    <button type="button" id="nextSlide" style="display: none"></button>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let currentSlideIndex = 0;
+      const slides = document.querySelectorAll(".slide");
+      const progressBar = document.getElementById("progressBar");
+      const showSlide = (index) => {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+        updateProgressBar(index);
+      };
+      const updateProgressBar = (index) => {
+        const progress = ((index + 1) / slides.length) * 100;
+        progressBar.style.width = progress + "%";
+      };
+      const onClickNextSlide = () => {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+      const onClickPrevSlide = () => {
+        currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+      document.getElementById("prevSlide").addEventListener("click", onClickPrevSlide);
+      document.getElementById("nextSlide").addEventListener("click", onClickNextSlide);
+      const iframe = document.getElementById("iframeDisplay");
+      const overlay = document.getElementById("overlay");
+      const showIframe = (src) => {
+        iframe.src = src;
+        iframe.style.display = "block";
+        overlay.style.display = "block";
+      };
+      const clickEventHandler = () => {
+        let iconClassAndUrlData = [
+          { className: ".icon-6-1", url: "https://kuula.co/share/hKgFf?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-6-2", url: "https://kuula.co/share/hKgFG?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-6-3", url: "https://kuula.co/share/hKgFL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-6-4", url: "https://kuula.co/share/hKgF7?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;sd=1&amp;thumbs=1" },
+          { className: ".icon-6-5", url: "https://kuula.co/share/hKgFh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-1", url: "https://kuula.co/share/hKg9S?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-2", url: "https://kuula.co/share/hKg93?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-3", url: "https://kuula.co/share/hKg9C?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-4", url: "https://kuula.co/share/hKg9j?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-5", url: "https://kuula.co/share/hKg96?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-6", url: "https://kuula.co/share/hKg9z?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-7", url: "https://kuula.co/share/hKg9Q?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-7-8", url: "https://kuula.co/share/hKg92?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-1", url: "https://kuula.co/share/hKgvT?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-2", url: "https://kuula.co/share/hKgvd?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-3", url: "https://kuula.co/share/hKg9T?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-4", url: "https://kuula.co/share/hKgqx?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-5", url: "https://kuula.co/share/hKgqg?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-6", url: "https://kuula.co/share/hKgvq?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-8-7", url: "https://kuula.co/share/hKg9P?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-1", url: "https://kuula.co/share/hKgqg?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-2", url: "https://kuula.co/share/hKgqK?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-3", url: "https://kuula.co/share/hKgqF?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-4", url: "https://kuula.co/share/hKgqk?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-5", url: "https://kuula.co/share/hKgql?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-6", url: "https://kuula.co/share/hKgqN?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-7", url: "https://kuula.co/share/hKgkS?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-9-8", url: "https://kuula.co/share/hKgqD?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-1", url: "https://kuula.co/share/hKgkV?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-2", url: "https://kuula.co/share/hKgkX?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-3", url: "https://kuula.co/share/hKgYr?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-4", url: "https://kuula.co/share/hKgkG?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-5", url: "https://kuula.co/share/hKgfg?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-10-6", url: "https://kuula.co/share/hKgfM?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-1", url: "https://kuula.co/share/hKgYz?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-2", url: "https://kuula.co/share/hKgYD?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-3", url: "https://kuula.co/share/hKgYX?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-4", url: "https://kuula.co/share/hKgYZ?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-5", url: "https://kuula.co/share/hKgfg?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-11-6", url: "https://kuula.co/share/hKgfM?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-1", url: "https://kuula.co/share/hKgP1?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-2", url: "https://kuula.co/share/hKgPL?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-3", url: "https://kuula.co/share/hKgl3?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-4", url: "https://kuula.co/share/hKgl2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-5", url: "https://kuula.co/share/hKgfg?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-12-6", url: "https://kuula.co/share/hKgfM?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-1", url: "https://kuula.co/share/hKgfC?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-2", url: "https://kuula.co/share/hKgfg?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-3", url: "https://kuula.co/share/hKgG2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-4", url: "https://kuula.co/share/hKgGw?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-5", url: "https://kuula.co/share/hKgGs?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-6", url: "https://kuula.co/share/hKgGj?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-7", url: "https://kuula.co/share/hKgGD?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-8", url: "https://kuula.co/share/hKgGG?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-9", url: "https://kuula.co/share/hKgG0?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-10", url: "https://kuula.co/share/hKgGp?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-11", url: "https://kuula.co/share/hKgGm?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+          { className: ".icon-13-12", url: "https://kuula.co/share/hKgfM?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" },
+        ];
+        iconClassAndUrlData.forEach((icon) => {
+          document.querySelector(icon.className).addEventListener("click", () => {
+            showIframe(icon.url);
+          });
+        });
+      };
+      clickEventHandler();
+      const closeIframe = (e) => {
+        if (!iframe.contains(e.target) &&
+          !e.target.classList.contains("icon-6-1") &&
+          !e.target.classList.contains("icon-6-2") &&
+          !e.target.classList.contains("icon-6-3") &&
+          !e.target.classList.contains("icon-6-4") &&
+          !e.target.classList.contains("icon-6-5") &&
+          !e.target.classList.contains("icon-7-1") &&
+          !e.target.classList.contains("icon-7-2") &&
+          !e.target.classList.contains("icon-7-3") &&
+          !e.target.classList.contains("icon-7-4") &&
+          !e.target.classList.contains("icon-7-5") &&
+          !e.target.classList.contains("icon-7-6") &&
+          !e.target.classList.contains("icon-7-7") &&
+          !e.target.classList.contains("icon-7-8") &&
+          !e.target.classList.contains("icon-8-1") &&
+          !e.target.classList.contains("icon-8-2") &&
+          !e.target.classList.contains("icon-8-3") &&
+          !e.target.classList.contains("icon-8-4") &&
+          !e.target.classList.contains("icon-8-5") &&
+          !e.target.classList.contains("icon-8-6") &&
+          !e.target.classList.contains("icon-8-7") &&
+          !e.target.classList.contains("icon-9-1") &&
+          !e.target.classList.contains("icon-9-2") &&
+          !e.target.classList.contains("icon-9-3") &&
+          !e.target.classList.contains("icon-9-4") &&
+          !e.target.classList.contains("icon-9-5") &&
+          !e.target.classList.contains("icon-9-6") &&
+          !e.target.classList.contains("icon-9-7") &&
+          !e.target.classList.contains("icon-9-8") &&
+          !e.target.classList.contains("icon-10-1") &&
+          !e.target.classList.contains("icon-10-2") &&
+          !e.target.classList.contains("icon-10-3") &&
+          !e.target.classList.contains("icon-10-4") &&
+          !e.target.classList.contains("icon-10-5") &&
+          !e.target.classList.contains("icon-10-6") &&
+          !e.target.classList.contains("icon-11-1") &&
+          !e.target.classList.contains("icon-11-2") &&
+          !e.target.classList.contains("icon-11-3") &&
+          !e.target.classList.contains("icon-11-4") &&
+          !e.target.classList.contains("icon-11-5") &&
+          !e.target.classList.contains("icon-11-6") &&
+          !e.target.classList.contains("icon-12-1") &&
+          !e.target.classList.contains("icon-12-2") &&
+          !e.target.classList.contains("icon-12-3") &&
+          !e.target.classList.contains("icon-12-4") &&
+          !e.target.classList.contains("icon-12-5") &&
+          !e.target.classList.contains("icon-12-6") &&
+          !e.target.classList.contains("icon-13-1") &&
+          !e.target.classList.contains("icon-13-2") &&
+          !e.target.classList.contains("icon-13-3") &&
+          !e.target.classList.contains("icon-13-4") &&
+          !e.target.classList.contains("icon-13-5") &&
+          !e.target.classList.contains("icon-13-6") &&
+          !e.target.classList.contains("icon-13-7") &&
+          !e.target.classList.contains("icon-13-8") &&
+          !e.target.classList.contains("icon-13-9") &&
+          !e.target.classList.contains("icon-13-10") &&
+          !e.target.classList.contains("icon-13-11") &&
+          !e.target.classList.contains("icon-13-12") &&
+          true) {
+          iframe.style.display = "none";
+          overlay.style.display = "none";
+        }
+      };
+      window.addEventListener("click", closeIframe);
+      window.addEventListener("touchstart", closeIframe);
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") { onClickPrevSlide(); }
+      });
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight") { onClickNextSlide(); }
+      });
+      let startX;
+      const handleTouchStart = (e) => { startX = e.touches[0].clientX; };
+      const handleTouchEnd = (e) => {
+        if (!startX) return;
+        let endX = e.changedTouches[0].clientX;
+        let diffX = startX - endX;
+        if (diffX > 50) { onClickNextSlide(); }
+        else if (diffX < -50) { onClickPrevSlide(); }
+        startX = null;
+      };
+      document.addEventListener("touchstart", handleTouchStart, false);
+      document.addEventListener("touchend", handleTouchEnd, false);
+      updateProgressBar(currentSlideIndex);
+    });
+  </script>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>전라남도 소방본부</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 로고 추가 -->
+      <div class="logo">
+        <img src="logo.png" alt="Jeollanam-do Fire Department Logo" />
+      </div>
+
+      <h1>피난약자시설 360° 도상훈련</h1>
+
+      <!-- QR 코드 링크 섹션 -->
+      <div class="qr-section">
+        <h2>
+          <a href="#" onclick="openModal()">도상훈련자료 함께보기(QR code)</a>
+        </h2>
+      </div>
+
+      <!-- VR Tour 섹션 -->
+      <div class="vr-tour">
+        <a href="#" onclick="showIframe()">VR TOUR<br />화순푸른솔요양병원</a>
+      </div>
+
+      <!-- 시군 목록 섹션 -->
+      <h2>시·군별 프리젠테이션 자료</h2>
+      <ul class="region-list">
+        <li><a href="#" onclick="showRegionList('목포')">목포</a></li>
+        <li><a href="/yeosu.html">여수</a></li>
+        <li><a href="/suncheon.html">순천</a></li>
+        <li><a href="/naju.html">나주</a></li>
+        <li><a href="/gwangyang.html">광양</a></li>
+        <li><a href="/damyang.html">담양</a></li>
+        <li><a href="/boseong.html">보성</a></li>
+        <li><a href="/haenam.html">해남</a></li>
+        <li><a href="/yeongam.html">영암</a></li>
+        <li><a href="/yeonggwang.html">영광</a></li>
+        <li><a href="/hwasun.html">화순</a></li>
+        <li><a href="/gangjin.html">강진</a></li>
+        <li><a href="/muan.html">무안</a></li>
+        <li><a href="/goheung.html">고흥</a></li>
+        <li><a href="/hampyeong.html">함평</a></li>
+        <li><a href="/jangseong.html">장성</a></li>
+        <li><a href="/jangheung.html">장흥</a></li>
+        <li><a href="/wando.html">완도</a></li>
+        <li><a href="/sinan.html">신안</a></li>
+        <li><a href="/jindo.html">진도</a></li>
+        <li><a href="/gokseong.html">곡성</a></li>
+        <li><a href="/gurye.html">구례</a></li>
+      </ul>
+
+      <!-- 저작권 표시 -->
+      <footer class="copyright">
+        <p>© 2025 차승환 &lt;cha2248@korea.kr / 010-4323-2248&gt;</p>
+      </footer>
+    </div>
+
+    <!-- QR 코드 모달 창 -->
+    <div id="qrModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+        <img
+          src="qrcode.svg"
+          alt="QR Code Enlarged"
+          class="qr-code-large"
+          id="qrCodeImage"
+        />
+      </div>
+    </div>
+
+    <!-- 지역별 자료 리스트 모달 창 -->
+    <div id="regionModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeRegionModal()">×</span>
+        <h3 id="regionTitle"></h3>
+        <ul id="regionItems" class="region-items">
+        </ul>
+      </div>
+    </div>
+
+    <!-- 임베디드 창 -->
+    <div id="overlay"></div>
+    <iframe id="iframeDisplay"></iframe>
+
+    <script>
+      // QR 코드 모달 열기
+      function openModal() {
+        document.getElementById("qrModal").style.display = "flex";
+        adjustQRCodeSize();
+      }
+
+      // QR 코드 모달 닫기
+      function closeModal() {
+        document.getElementById("qrModal").style.display = "none";
+      }
+
+      // 지역별 리스트 모달 열기
+      function showRegionList(regionName) {
+        document.getElementById("regionTitle").innerText = regionName;
+        
+        // 목포 시설 목록
+        const facilities = [
+          { name: '푸른마을 노인전문요양원', path: '360도 모바일 변환/★1(목포) 피난약자 시설 도상훈련 자료/(목포)푸른마을 노인전문요양원/특정소방대상물 도상훈련 PPT(푸른마을전문요양원).html' },
+          { name: '늘편한요양원', path: '360도 모바일 변환/★1(목포) 피난약자 시설 도상훈련 자료/(목포)늘편한요양원/늘편안한요양원 수정본.html' },
+          { name: '아름다운요양병원', path: '360도 모바일 변환/★1(목포) 피난약자 시설 도상훈련 자료/(목포)아름다운요양병원/아름다운요양병원.html' },
+          { name: '목포노인전문요양원', path: '360도 모바일 변환/★1(목포) 피난약자 시설 도상훈련 자료/(목포)목포노인전문요양원/목포노인전문요양원.html' }
+        ];
+        
+        // 리스트 항목 업데이트
+        const regionItems = document.getElementById("regionItems");
+        regionItems.innerHTML = '';
+        
+        facilities.forEach((facility) => {
+          const li = document.createElement('li');
+          li.innerHTML = `<a href="#" onclick="openRegionFile('${facility.path}')">${facility.name}</a>`;
+          regionItems.appendChild(li);
+        });
+        
+        document.getElementById("regionModal").style.display = "flex";
+      }
+
+      // 지역별 리스트 모달 닫기
+      function closeRegionModal() {
+        document.getElementById("regionModal").style.display = "none";
+      }
+
+      // 지역별 자료 파일 열기
+      function openRegionFile(filePath) {
+        window.open(filePath, '_blank');
+        closeRegionModal();
+      }
+
+      // QR 코드 모달 외부 클릭 시 닫기
+      window.onclick = function (event) {
+        const qrModal = document.getElementById("qrModal");
+        const regionModal = document.getElementById("regionModal");
+        if (event.target == qrModal) {
+          qrModal.style.display = "none";
+        }
+        if (event.target == regionModal) {
+          regionModal.style.display = "none";
+        }
+      };
+
+      // QR 코드 크기 조정 함수
+      function adjustQRCodeSize() {
+        const qrCodeImage = document.getElementById("qrCodeImage");
+        const windowWidth = window.innerWidth;
+        const windowHeight = window.innerHeight;
+        const aspectRatio = windowWidth / windowHeight;
+
+        let size;
+        if (aspectRatio > 1) {
+          size = windowHeight * 0.8;
+        } else {
+          size = windowWidth * 0.8;
+        }
+
+        qrCodeImage.style.width = `${size}px`;
+        qrCodeImage.style.height = `${size}px`;
+      }
+
+      // 창 크기 변경 시 QR 코드 크기 재조정
+      window.onresize = function () {
+        if (document.getElementById("qrModal").style.display === "flex") {
+          adjustQRCodeSize();
+        }
+      };
+
+      // 임베디드 창 열기
+      const iframe = document.getElementById("iframeDisplay");
+      const overlay = document.getElementById("overlay");
+
+      function showIframe() {
+        const vrTourUrl =
+          "https://kuula.co/share/collection/7bs0b?logo=1&info=0&logosize=200&fs=1&vr=1&sd=1&initload=0&thumbs=1";
+        iframe.src = vrTourUrl;
+        iframe.style.display = "block";
+        overlay.style.display = "block";
+      }
+
+      // 임베디드 창 닫기
+      const closeIframe = (e) => {
+        if (!iframe.contains(e.target) && !e.target.closest(".vr-tour a")) {
+          iframe.style.display = "none";
+          overlay.style.display = "none";
+        }
+      };
+
+      window.addEventListener("click", closeIframe);
+      window.addEventListener("touchstart", closeIframe);
+    </script>
+
+    <style>
+      /* 지역별 자료 리스트 모달을 위한 추가 스타일 */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+      }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+      }
+
+      .region-items {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+
+      .region-items li {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .region-items li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: block;
+      }
+
+      .region-items li:hover {
+        background-color: #e0e0e0;
+      }
+
+      .region-items li a:hover {
+        color: #007bff;
+      }
+    </style>
+  </body>
+</html>

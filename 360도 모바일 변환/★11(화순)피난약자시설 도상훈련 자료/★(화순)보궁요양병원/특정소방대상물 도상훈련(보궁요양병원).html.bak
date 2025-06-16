@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>화순</title>
+    <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="특정소방대상물 도상훈련(보궁요양병원)icons.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide active">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/1.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/2.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/3.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/4.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/5.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/6.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-6-1" />
+        <img src="360.png" class="icon-size icon-6-2" />
+        <img src="360.png" class="icon-size icon-6-3" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/7.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-7-1" />
+        <img src="360.png" class="icon-size icon-7-2" />
+        <img src="360.png" class="icon-size icon-7-3" />
+        <img src="360.png" class="icon-size icon-7-4" />
+        <img src="360.png" class="icon-size icon-7-5" />
+        <img src="360.png" class="icon-size icon-7-6" />
+        <img src="360.png" class="icon-size icon-7-7" />
+        <img src="360.png" class="icon-size icon-7-8" />
+        <img src="360.png" class="icon-size icon-7-9" />
+        <img src="360.png" class="icon-size icon-7-10" />
+        <img src="360.png" class="icon-size icon-7-11" />
+        <img src="360.png" class="icon-size icon-7-12" />
+        <img src="360.png" class="icon-size icon-7-13" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/8.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-8-1" />
+        <img src="360.png" class="icon-size icon-8-2" />
+        <img src="360.png" class="icon-size icon-8-3" />
+        <img src="360.png" class="icon-size icon-8-4" />
+        <img src="360.png" class="icon-size icon-8-5" />
+        <img src="360.png" class="icon-size icon-8-6" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/9.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-9-1" />
+        <img src="360.png" class="icon-size icon-9-2" />
+        <img src="360.png" class="icon-size icon-9-3" />
+        <img src="360.png" class="icon-size icon-9-4" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/10.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-10-1" />
+        <img src="360.png" class="icon-size icon-10-2" />
+        <img src="360.png" class="icon-size icon-10-3" />
+        <img src="360.png" class="icon-size icon-10-4" />
+        <img src="360.png" class="icon-size icon-10-5" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/11.jpg" class="img-sizes" />
+        <img src="360.png" class="icon-size icon-11-1" />
+        <img src="360.png" class="icon-size icon-11-2" />
+        <img src="360.png" class="icon-size icon-11-3" />
+        <img src="360.png" class="icon-size icon-11-4" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/12.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/13.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/14.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/15.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/16.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/17.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/18.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/19.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/20.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/21.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/22.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/23.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/24.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/25.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/26.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/27.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/28.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/29.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/30.jpg" class="img-sizes" />
+      </div>
+      <div class="slide">
+        <img src="특정소방대상물 도상훈련(보궁요양병원)/31.jpg" class="img-sizes" />
+      </div>
+
+      <div id="progressBarContainer">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <iframe id="iframeDisplay"></iframe>
+    <button type="button" id="prevSlide" style="display: none"></button>
+    <button type="button" id="nextSlide" style="display: none"></button>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let currentSlideIndex = 0;
+      const slides = document.querySelectorAll(".slide");
+      const progressBar = document.getElementById("progressBar");
+      const showSlide = (index) => {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+        updateProgressBar(index);
+      };
+      const updateProgressBar = (index) => {
+        const progress = ((index + 1) / slides.length) * 100;
+        progressBar.style.width = progress + "%";
+      };
+      const onClickNextSlide = () => {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+      const onClickPrevSlide = () => {
+        currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+      document.getElementById("prevSlide").addEventListener("click", onClickPrevSlide);
+      document.getElementById("nextSlide").addEventListener("click", onClickNextSlide);
+      const iframe = document.getElementById("iframeDisplay");
+      const overlay = document.getElementById("overlay");
+      const showIframe = (src) => {
+        iframe.src = src;
+        iframe.style.display = "block";
+        overlay.style.display = "block";
+      };
+      const clickEventHandler = () => {
+        let iconClassAndUrlData = [
+          { className: ".icon-6-1", url: "https://kuula.co/share/hbXP9?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-6-2", url: "https://kuula.co/share/hb12b?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-6-3", url: "https://kuula.co/share/hb12r?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-1", url: "https://kuula.co/share/hb12B?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-2", url: "https://kuula.co/share/hb12s?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-3", url: "https://kuula.co/share/hb12C?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-4", url: "https://kuula.co/share/hb12b?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-5", url: "https://kuula.co/share/hb12k?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-6", url: "https://kuula.co/share/hb1wz?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-7", url: "https://kuula.co/share/hbXP1?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-8", url: "https://kuula.co/share/hbXP5?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-9", url: "https://kuula.co/share/hbXlG?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-10", url: "https://kuula.co/share/hbXpC?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-11", url: "https://kuula.co/share/hbXpc?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-12", url: "https://kuula.co/share/hbXN1?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-7-13", url: "https://kuula.co/share/hbX4V?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-1", url: "https://kuula.co/share/hbXL9?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-2", url: "https://kuula.co/share/hbXhS?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-3", url: "https://kuula.co/share/hbX5p?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-4", url: "https://kuula.co/share/hbXN5?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-5", url: "https://kuula.co/share/hbX7c?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-8-6", url: "https://kuula.co/share/hbX4F?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-9-1", url: "https://kuula.co/share/hbXmL?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-9-2", url: "https://kuula.co/share/hbXL3?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-9-3", url: "https://kuula.co/share/hbX5K?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-9-4", url: "https://kuula.co/share/hbX5F?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-10-1", url: "https://kuula.co/share/hbXmn?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-10-2", url: "https://kuula.co/share/hbXmc?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-10-3", url: "https://kuula.co/share/hbX5z?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-10-4", url: "https://kuula.co/share/hbX58?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-10-5", url: "https://kuula.co/share/hbX5M?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-11-1", url: "https://kuula.co/share/hbXpp?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-11-2", url: "https://kuula.co/share/hbXmt?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-11-3", url: "https://kuula.co/share/hbXm2?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+          { className: ".icon-11-4", url: "https://kuula.co/share/hbXhC?logo=0&info=0&fs=1&vr=1&sd=1&thumbs=1" },
+        ];
+        iconClassAndUrlData.forEach((icon) => {
+          document.querySelector(icon.className).addEventListener("click", () => {
+            showIframe(icon.url);
+          });
+        });
+      };
+      clickEventHandler();
+      const closeIframe = (e) => {
+        if (!iframe.contains(e.target) &&
+          !e.target.classList.contains("icon-6-1") &&
+          !e.target.classList.contains("icon-6-2") &&
+          !e.target.classList.contains("icon-6-3") &&
+          !e.target.classList.contains("icon-7-1") &&
+          !e.target.classList.contains("icon-7-2") &&
+          !e.target.classList.contains("icon-7-3") &&
+          !e.target.classList.contains("icon-7-4") &&
+          !e.target.classList.contains("icon-7-5") &&
+          !e.target.classList.contains("icon-7-6") &&
+          !e.target.classList.contains("icon-7-7") &&
+          !e.target.classList.contains("icon-7-8") &&
+          !e.target.classList.contains("icon-7-9") &&
+          !e.target.classList.contains("icon-7-10") &&
+          !e.target.classList.contains("icon-7-11") &&
+          !e.target.classList.contains("icon-7-12") &&
+          !e.target.classList.contains("icon-7-13") &&
+          !e.target.classList.contains("icon-8-1") &&
+          !e.target.classList.contains("icon-8-2") &&
+          !e.target.classList.contains("icon-8-3") &&
+          !e.target.classList.contains("icon-8-4") &&
+          !e.target.classList.contains("icon-8-5") &&
+          !e.target.classList.contains("icon-8-6") &&
+          !e.target.classList.contains("icon-9-1") &&
+          !e.target.classList.contains("icon-9-2") &&
+          !e.target.classList.contains("icon-9-3") &&
+          !e.target.classList.contains("icon-9-4") &&
+          !e.target.classList.contains("icon-10-1") &&
+          !e.target.classList.contains("icon-10-2") &&
+          !e.target.classList.contains("icon-10-3") &&
+          !e.target.classList.contains("icon-10-4") &&
+          !e.target.classList.contains("icon-10-5") &&
+          !e.target.classList.contains("icon-11-1") &&
+          !e.target.classList.contains("icon-11-2") &&
+          !e.target.classList.contains("icon-11-3") &&
+          !e.target.classList.contains("icon-11-4") &&
+          true) {
+          iframe.style.display = "none";
+          overlay.style.display = "none";
+        }
+      };
+      window.addEventListener("click", closeIframe);
+      window.addEventListener("touchstart", closeIframe);
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") { onClickPrevSlide(); }
+      });
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight") { onClickNextSlide(); }
+      });
+      let startX;
+      const handleTouchStart = (e) => { startX = e.touches[0].clientX; };
+      const handleTouchEnd = (e) => {
+        if (!startX) return;
+        let endX = e.changedTouches[0].clientX;
+        let diffX = startX - endX;
+        if (diffX > 50) { onClickNextSlide(); }
+        else if (diffX < -50) { onClickPrevSlide(); }
+        startX = null;
+      };
+      document.addEventListener("touchstart", handleTouchStart, false);
+      document.addEventListener("touchend", handleTouchEnd, false);
+      updateProgressBar(currentSlideIndex);
+    });
+  </script>
+</html>
