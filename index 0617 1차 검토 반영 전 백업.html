@@ -669,13 +669,7 @@
 
       // 지역별 자료 파일 열기
       function openRegionFile(filePath) {
-        // 한글 경로를 URL 인코딩으로 처리
-        const encodedPath = filePath
-          .split("/")
-          .map((part) => encodeURIComponent(part))
-          .join("/");
-
-        window.location.href = encodedPath;
+        window.location.href = filePath;
         closeRegionModal();
       }
 
@@ -814,4 +808,4 @@
       }
     </style>
   </body>
-</html>
+</html> 
