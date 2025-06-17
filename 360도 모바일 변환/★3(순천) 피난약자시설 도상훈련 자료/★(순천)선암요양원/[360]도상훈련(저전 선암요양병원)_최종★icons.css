@@ -1,0 +1,430 @@
+.icon-size {
+  /* 기본 사이즈: 9:16, 오프셋 비율에 따라 조정 */
+  --offset-left: -4.5%; /* Left 오프셋 기본값 */
+  --offset-top: -8%; /* Top 오프셋 기본값 */
+  --offset-ratio: 0.4; /* 오프셋 비율 기본값: 1.0 (배수) */
+  --base-width: 9%; /* 기본 너비 */
+  --base-height: 16%; /* 기본 높이 */
+  width: calc(var(--base-width) * var(--offset-ratio));
+  height: calc(var(--base-height) * var(--offset-ratio));
+}
+
+.icon-9-1 {
+  position: absolute;
+  left: calc(
+    69.55% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    50.58% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-9-2 {
+  position: absolute;
+  left: calc(
+    32.28% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    86.38% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-10-1 {
+  position: absolute;
+  left: calc(
+    46.94% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    55.6% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-1 {
+  position: absolute;
+  left: calc(
+    55.25% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    67.53% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-2 {
+  position: absolute;
+  left: calc(
+    26.84% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    67.92% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-3 {
+  position: absolute;
+  left: calc(
+    32.59% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    67.43% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-4 {
+  position: absolute;
+  left: calc(
+    39.72% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    67.13% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-5 {
+  position: absolute;
+  left: calc(
+    65.49% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    63.64% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-11-6 {
+  position: absolute;
+  left: calc(
+    74.68% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    56.15% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-1 {
+  position: absolute;
+  left: calc(
+    16.87% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    66.11% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-2 {
+  position: absolute;
+  left: calc(
+    60.47% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    65.14% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-3 {
+  position: absolute;
+  left: calc(
+    79.39% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    51.3% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-4 {
+  position: absolute;
+  left: calc(
+    47.99% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    64.04% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-5 {
+  position: absolute;
+  left: calc(
+    75% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    55.1% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-12-6 {
+  position: absolute;
+  left: calc(
+    27.23% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    64.11% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-1 {
+  position: absolute;
+  left: calc(
+    30.35% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    62.82% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-2 {
+  position: absolute;
+  left: calc(
+    15.83% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    56.08% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-3 {
+  position: absolute;
+  left: calc(
+    62.45% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    63.43% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-4 {
+  position: absolute;
+  left: calc(
+    78.05% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    50.71% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-5 {
+  position: absolute;
+  left: calc(
+    84.23% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    46.64% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-6 {
+  position: absolute;
+  left: calc(
+    73.75% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    55.89% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-7 {
+  position: absolute;
+  left: calc(
+    46.56% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    63.2% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-13-8 {
+  position: absolute;
+  left: calc(
+    20.33% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    58.94% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-1 {
+  position: absolute;
+  left: calc(
+    63.49% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    63.21% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-2 {
+  position: absolute;
+  left: calc(
+    70.59% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    58.91% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-3 {
+  position: absolute;
+  left: calc(
+    74.36% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    55.64% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-4 {
+  position: absolute;
+  left: calc(
+    79.91% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    51.17% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-5 {
+  position: absolute;
+  left: calc(
+    84.36% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    47.79% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-6 {
+  position: absolute;
+  left: calc(
+    27.38% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    65.5% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-7 {
+  position: absolute;
+  left: calc(
+    58.44% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    65.69% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-8 {
+  position: absolute;
+  left: calc(
+    47.19% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    65.3% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-14-9 {
+  position: absolute;
+  left: calc(
+    17.28% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    68.23% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-15-1 {
+  position: absolute;
+  left: calc(
+    33.1% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    47.65% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-17-1 {
+  position: absolute;
+  left: calc(
+    24.15% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    67.27% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}
+
+.icon-19-1 {
+  position: absolute;
+  left: calc(
+    59.86% + var(--offset-left) -
+      ((var(--base-width) * (var(--offset-ratio) - 1)) / 2)
+  );
+  top: calc(
+    65.14% + var(--offset-top) -
+      ((var(--base-height) * (var(--offset-ratio) - 1)) / 2)
+  );
+}

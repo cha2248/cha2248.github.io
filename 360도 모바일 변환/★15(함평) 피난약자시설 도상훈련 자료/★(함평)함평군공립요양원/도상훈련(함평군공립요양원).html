@@ -87,8 +87,6 @@
       </div>
       <div class="slide">
         <img src="도상훈련(함평군공립요양원)/16.jpg" class="img-sizes" />
-        <img src="360.png" class="icon-size icon-16-1" />
-        <img src="360.png" class="icon-size icon-16-2" />
       </div>
       <div class="slide">
         <img src="도상훈련(함평군공립요양원)/17.jpg" class="img-sizes" />
@@ -150,11 +148,16 @@
         showSlide(currentSlideIndex);
       };
       const onClickPrevSlide = () => {
-        currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+        currentSlideIndex =
+          (currentSlideIndex - 1 + slides.length) % slides.length;
         showSlide(currentSlideIndex);
       };
-      document.getElementById("prevSlide").addEventListener("click", onClickPrevSlide);
-      document.getElementById("nextSlide").addEventListener("click", onClickNextSlide);
+      document
+        .getElementById("prevSlide")
+        .addEventListener("click", onClickPrevSlide);
+      document
+        .getElementById("nextSlide")
+        .addEventListener("click", onClickNextSlide);
       const iframe = document.getElementById("iframeDisplay");
       const overlay = document.getElementById("overlay");
       const showIframe = (src) => {
@@ -164,49 +167,143 @@
       };
       const clickEventHandler = () => {
         let iconClassAndUrlData = [
-          { className: ".icon-10-1", url: "https://kuula.co/share/hZ685?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-2", url: "https://kuula.co/share/hZ68H?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-3", url: "https://kuula.co/share/hZ68r?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-4", url: "https://kuula.co/share/hZ6g1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-5", url: "https://kuula.co/share/hZ6xL?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-6", url: "https://kuula.co/share/hZ6xS?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-7", url: "https://kuula.co/share/hZ6CT?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-8", url: "https://kuula.co/share/hZ6CQ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-9", url: "https://kuula.co/share/hZ6VR?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-10", url: "https://kuula.co/share/hZ62s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-11", url: "https://kuula.co/share/hZ63p?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-12", url: "https://kuula.co/share/hZ63s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-13", url: "https://kuula.co/share/hZ6r7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-14", url: "https://kuula.co/share/hZ8hM?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-15", url: "https://kuula.co/share/hZ8m7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-16", url: "https://kuula.co/share/hZ8l4?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-17", url: "https://kuula.co/share/hZ8PH?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-10-18", url: "https://kuula.co/share/hZ8Y5?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-1", url: "https://kuula.co/share/hZ6rW?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-2", url: "https://kuula.co/share/hZ6ts?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-3", url: "https://kuula.co/share/hZ847?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-4", url: "https://kuula.co/share/hZ845?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-5", url: "https://kuula.co/share/hZ84s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-6", url: "https://kuula.co/share/hZ80P?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-11-7", url: "https://kuula.co/share/hZ80d?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-1", url: "https://kuula.co/share/hZ878?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-2", url: "https://kuula.co/share/hZ8NZ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-3", url: "https://kuula.co/share/hZ858?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-4", url: "https://kuula.co/share/hZ85z?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-5", url: "https://kuula.co/share/hZ8hY?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-12-6", url: "https://kuula.co/share/hZ8Gn?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-16-1", url: "http://imagesearch.naver.com/search.naver?where=idetail&query=%BB%E7%B6%F7&a=dsi&r=163&u=http://km.naver.com/list/view_detail.php?dir_id=50201&docid=1628926" },
-          { className: ".icon-16-2", url: "http://imagesearch.naver.com/search.naver?where=idetail&query=%BB%E7%B6%F7&a=dsi&r=163&u=http://km.naver.com/list/view_detail.php?dir_id=50201&docid=1628926" },
+          {
+            className: ".icon-10-1",
+            url: "https://kuula.co/share/hZ685?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-2",
+            url: "https://kuula.co/share/hZ68H?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-3",
+            url: "https://kuula.co/share/hZ68r?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-4",
+            url: "https://kuula.co/share/hZ6g1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-5",
+            url: "https://kuula.co/share/hZ6xL?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-6",
+            url: "https://kuula.co/share/hZ6xS?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-7",
+            url: "https://kuula.co/share/hZ6CT?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-8",
+            url: "https://kuula.co/share/hZ6CQ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-9",
+            url: "https://kuula.co/share/hZ6VR?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-10",
+            url: "https://kuula.co/share/hZ62s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-11",
+            url: "https://kuula.co/share/hZ63p?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-12",
+            url: "https://kuula.co/share/hZ63s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-13",
+            url: "https://kuula.co/share/hZ6r7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-14",
+            url: "https://kuula.co/share/hZ8hM?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-15",
+            url: "https://kuula.co/share/hZ8m7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-16",
+            url: "https://kuula.co/share/hZ8l4?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-17",
+            url: "https://kuula.co/share/hZ8PH?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-18",
+            url: "https://kuula.co/share/hZ8Y5?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-1",
+            url: "https://kuula.co/share/hZ6rW?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-2",
+            url: "https://kuula.co/share/hZ6ts?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-3",
+            url: "https://kuula.co/share/hZ847?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-4",
+            url: "https://kuula.co/share/hZ845?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-5",
+            url: "https://kuula.co/share/hZ84s?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-6",
+            url: "https://kuula.co/share/hZ80P?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-11-7",
+            url: "https://kuula.co/share/hZ80d?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-1",
+            url: "https://kuula.co/share/hZ878?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-2",
+            url: "https://kuula.co/share/hZ8NZ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-3",
+            url: "https://kuula.co/share/hZ858?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-4",
+            url: "https://kuula.co/share/hZ85z?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-5",
+            url: "https://kuula.co/share/hZ8hY?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-6",
+            url: "https://kuula.co/share/hZ8Gn?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
         ];
         iconClassAndUrlData.forEach((icon) => {
-          document.querySelector(icon.className).addEventListener("click", () => {
-            showIframe(icon.url);
-          });
+          document
+            .querySelector(icon.className)
+            .addEventListener("click", () => {
+              showIframe(icon.url);
+            });
         });
       };
       clickEventHandler();
       const closeIframe = (e) => {
-        if (!iframe.contains(e.target) &&
+        if (
+          !iframe.contains(e.target) &&
           !e.target.classList.contains("icon-10-1") &&
           !e.target.classList.contains("icon-10-2") &&
           !e.target.classList.contains("icon-10-3") &&
@@ -238,9 +335,8 @@
           !e.target.classList.contains("icon-12-4") &&
           !e.target.classList.contains("icon-12-5") &&
           !e.target.classList.contains("icon-12-6") &&
-          !e.target.classList.contains("icon-16-1") &&
-          !e.target.classList.contains("icon-16-2") &&
-          true) {
+          true
+        ) {
           iframe.style.display = "none";
           overlay.style.display = "none";
         }
@@ -248,19 +344,28 @@
       window.addEventListener("click", closeIframe);
       window.addEventListener("touchstart", closeIframe);
       window.addEventListener("keydown", (e) => {
-        if (e.key === "ArrowLeft") { onClickPrevSlide(); }
+        if (e.key === "ArrowLeft") {
+          onClickPrevSlide();
+        }
       });
       window.addEventListener("keydown", (e) => {
-        if (e.key === "ArrowRight") { onClickNextSlide(); }
+        if (e.key === "ArrowRight") {
+          onClickNextSlide();
+        }
       });
       let startX;
-      const handleTouchStart = (e) => { startX = e.touches[0].clientX; };
+      const handleTouchStart = (e) => {
+        startX = e.touches[0].clientX;
+      };
       const handleTouchEnd = (e) => {
         if (!startX) return;
         let endX = e.changedTouches[0].clientX;
         let diffX = startX - endX;
-        if (diffX > 50) { onClickNextSlide(); }
-        else if (diffX < -50) { onClickPrevSlide(); }
+        if (diffX > 50) {
+          onClickNextSlide();
+        } else if (diffX < -50) {
+          onClickPrevSlide();
+        }
         startX = null;
       };
       document.addEventListener("touchstart", handleTouchStart, false);
