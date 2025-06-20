@@ -113,11 +113,16 @@
         showSlide(currentSlideIndex);
       };
       const onClickPrevSlide = () => {
-        currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+        currentSlideIndex =
+          (currentSlideIndex - 1 + slides.length) % slides.length;
         showSlide(currentSlideIndex);
       };
-      document.getElementById("prevSlide").addEventListener("click", onClickPrevSlide);
-      document.getElementById("nextSlide").addEventListener("click", onClickNextSlide);
+      document
+        .getElementById("prevSlide")
+        .addEventListener("click", onClickPrevSlide);
+      document
+        .getElementById("nextSlide")
+        .addEventListener("click", onClickNextSlide);
       const iframe = document.getElementById("iframeDisplay");
       const overlay = document.getElementById("overlay");
       const showIframe = (src) => {
@@ -127,48 +132,147 @@
       };
       const clickEventHandler = () => {
         let iconClassAndUrlData = [
-          { className: ".icon-4-1", url: "https://kuula.co/share/h1Sds?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-4-2", url: "https://kuula.co/share/h1SdN?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-4-3", url: "https://kuula.co/share/h1SdF?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-4-4", url: "https://kuula.co/share/h12J2?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-4-5", url: "https://kuula.co/share/h12Fx?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-1", url: "https://kuula.co/share/h1S6S?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-2", url: "https://kuula.co/share/h1Sgl?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-3", url: "https://kuula.co/share/h1Sg9?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-5-4", url: "https://kuula.co/share/h1Sg1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-5", url: "https://kuula.co/share/h1Sg8?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-6", url: "https://kuula.co/share/h1SgC?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-5-7", url: "https://kuula.co/share/h1Sgy?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-5-8", url: "https://kuula.co/share/h1SxN?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-1", url: "https://kuula.co/share/h1SxC?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-2", url: "https://kuula.co/share/h1SxV?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-3", url: "https://kuula.co/share/h1SCh?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-6-4", url: "https://kuula.co/share/h1SCJ?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-6-5", url: "https://kuula.co/share/h1SCW?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-6", url: "https://kuula.co/share/h1SCy?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-7", url: "https://kuula.co/share/h1SV7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-6-8", url: "https://kuula.co/share/h1SVJ?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-7-1", url: "https://kuula.co/share/h1BTt?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-7-2", url: "https://kuula.co/share/h1Bd7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-3", url: "https://kuula.co/share/h1Bd1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-4", url: "https://kuula.co/share/h1Bdy?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-5", url: "https://kuula.co/share/h1Bgz?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-6", url: "https://kuula.co/share/h1Bn8?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-7", url: "https://kuula.co/share/h1B64?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-7-8", url: "https://kuula.co/share/h1B6n?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
-          { className: ".icon-7-9", url: "https://kuula.co/share/h1B6R?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-7-10", url: "https://kuula.co/share/h1B6t?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1" },
-          { className: ".icon-7-11", url: "https://kuula.co/share/h1B8b?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1" },
+          {
+            className: ".icon-4-1",
+            url: "https://kuula.co/share/h1Sds?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-4-2",
+            url: "https://kuula.co/share/h1SdN?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-4-3",
+            url: "https://kuula.co/share/h1SdF?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-4-4",
+            url: "https://kuula.co/share/h12J2?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-4-5",
+            url: "https://kuula.co/share/h12Fx?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-1",
+            url: "https://kuula.co/share/h1S6S?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-2",
+            url: "https://kuula.co/share/h1Sgl?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-3",
+            url: "https://kuula.co/share/h1Sg9?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-4",
+            url: "https://kuula.co/share/h1Sg1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-5",
+            url: "https://kuula.co/share/h1Sg8?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-6",
+            url: "https://kuula.co/share/h1SgC?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-7",
+            url: "https://kuula.co/share/h1Sgy?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-5-8",
+            url: "https://kuula.co/share/h1SxN?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-1",
+            url: "https://kuula.co/share/h1SxC?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-2",
+            url: "https://kuula.co/share/h1SxV?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-3",
+            url: "https://kuula.co/share/h1SCh?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-4",
+            url: "https://kuula.co/share/h1SCJ?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-5",
+            url: "https://kuula.co/share/h1SCW?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-6",
+            url: "https://kuula.co/share/h1SCy?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-7",
+            url: "https://kuula.co/share/h1SV7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-6-8",
+            url: "https://kuula.co/share/h1SVJ?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-1",
+            url: "https://kuula.co/share/h1BTt?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-2",
+            url: "https://kuula.co/share/h1Bd7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-3",
+            url: "https://kuula.co/share/h1Bd1?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-4",
+            url: "https://kuula.co/share/h1Bdy?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-5",
+            url: "https://kuula.co/share/h1Bgz?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-6",
+            url: "https://kuula.co/share/h1Bn8?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-7",
+            url: "https://kuula.co/share/h1B64?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-8",
+            url: "https://kuula.co/share/h1B6n?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-9",
+            url: "https://kuula.co/share/h1B6R?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-10",
+            url: "https://kuula.co/share/h1B6t?logo=0&info=0&fs=1&vr=0&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-11",
+            url: "https://kuula.co/share/h1B8b?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
         ];
         iconClassAndUrlData.forEach((icon) => {
-          document.querySelector(icon.className).addEventListener("click", () => {
-            showIframe(icon.url);
-          });
+          document
+            .querySelector(icon.className)
+            .addEventListener("click", () => {
+              showIframe(icon.url);
+            });
         });
       };
       clickEventHandler();
       const closeIframe = (e) => {
-        if (!iframe.contains(e.target) &&
+        if (
+          !iframe.contains(e.target) &&
           !e.target.classList.contains("icon-4-1") &&
           !e.target.classList.contains("icon-4-2") &&
           !e.target.classList.contains("icon-4-3") &&
@@ -201,7 +305,8 @@
           !e.target.classList.contains("icon-7-9") &&
           !e.target.classList.contains("icon-7-10") &&
           !e.target.classList.contains("icon-7-11") &&
-          true) {
+          true
+        ) {
           iframe.style.display = "none";
           overlay.style.display = "none";
         }
@@ -209,19 +314,28 @@
       window.addEventListener("click", closeIframe);
       window.addEventListener("touchstart", closeIframe);
       window.addEventListener("keydown", (e) => {
-        if (e.key === "ArrowLeft") { onClickPrevSlide(); }
+        if (e.key === "ArrowLeft") {
+          onClickPrevSlide();
+        }
       });
       window.addEventListener("keydown", (e) => {
-        if (e.key === "ArrowRight") { onClickNextSlide(); }
+        if (e.key === "ArrowRight") {
+          onClickNextSlide();
+        }
       });
       let startX;
-      const handleTouchStart = (e) => { startX = e.touches[0].clientX; };
+      const handleTouchStart = (e) => {
+        startX = e.touches[0].clientX;
+      };
       const handleTouchEnd = (e) => {
         if (!startX) return;
         let endX = e.changedTouches[0].clientX;
         let diffX = startX - endX;
-        if (diffX > 50) { onClickNextSlide(); }
-        else if (diffX < -50) { onClickPrevSlide(); }
+        if (diffX > 50) {
+          onClickNextSlide();
+        } else if (diffX < -50) {
+          onClickPrevSlide();
+        }
         startX = null;
       };
       document.addEventListener("touchstart", handleTouchStart, false);
