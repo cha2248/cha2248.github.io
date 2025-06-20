@@ -1,0 +1,46 @@
+.icon-size {
+  /* 기본 사이즈: 9:16, 오프셋 비율에 따라 조정 */
+  --offset-left: -5%;      /* Left 오프셋 기본값 */
+  --offset-top: -8%;     /* Top 오프셋 기본값 */
+  --offset-ratio: 0.7;     /* 오프셋 비율 기본값: 1.0 (배수) */
+  --base-width: 9%;        /* 기본 너비 */
+  --base-height: 16%;      /* 기본 높이 */
+  width: calc(var(--base-width) * var(--offset-ratio));
+  height: calc(var(--base-height) * var(--offset-ratio));
+}
+
+.icon-7-1 {
+  position: absolute;
+  left: calc(31.18% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(53.72% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}
+
+.icon-7-2 {
+  position: absolute;
+  left: calc(52.61% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(53.72% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}
+
+.icon-8-1 {
+  position: absolute;
+  left: calc(49.81% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(57.71% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}
+
+.icon-9-1 {
+  position: absolute;
+  left: calc(48.61% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(57.71% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}
+
+.icon-10-1 {
+  position: absolute;
+  left: calc(50.98% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(57.71% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}
+
+.icon-11-1 {
+  position: absolute;
+  left: calc(54.83% + var(--offset-left) - ((var(--base-width) * (var(--offset-ratio) - 1)) / 2));
+  top: calc(57.71% + var(--offset-top) - ((var(--base-height) * (var(--offset-ratio) - 1)) / 2));
+}

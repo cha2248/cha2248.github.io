@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="slide.css" />
+  <link
+    rel="stylesheet"
+    href="도상훈련(성모노인요양원)icons.css"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>성모노인요양원</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide active">
+        <img
+          src="도상훈련(성모노인요양원)/1.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/2.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/3.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/4.jpg"
+          class="img-sizes"
+        />
+        <img src="360.png" class="icon-size icon-4-1" />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/5.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/6.jpg"
+          class="img-sizes"
+        />
+        <img src="360.png" class="icon-size icon-6-1" />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/7.jpg"
+          class="img-sizes"
+        />
+        <img src="360.png" class="icon-size icon-7-1" />
+        <img src="360.png" class="icon-size icon-7-2" />
+        <img src="360.png" class="icon-size icon-7-3" />
+        <img src="360.png" class="icon-size icon-7-4" />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/8.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/9.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/10.jpg"
+          class="img-sizes"
+        />
+        <img src="360.png" class="icon-size icon-10-1" />
+        <img src="360.png" class="icon-size icon-10-2" />
+        <img src="360.png" class="icon-size icon-10-3" />
+        <img src="360.png" class="icon-size icon-10-4" />
+        <img src="360.png" class="icon-size icon-10-5" />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/11.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/12.jpg"
+          class="img-sizes"
+        />
+        <img src="360.png" class="icon-size icon-12-1" />
+        <img src="360.png" class="icon-size icon-12-2" />
+        <img src="360.png" class="icon-size icon-12-3" />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/13.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/14.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/15.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/16.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/17.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/18.jpg"
+          class="img-sizes"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="도상훈련(성모노인요양원)/19.jpg"
+          class="img-sizes"
+        />
+      </div>
+
+      <div id="progressBarContainer">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <iframe id="iframeDisplay"></iframe>
+    <button type="button" id="prevSlide" style="display: none"></button>
+    <button type="button" id="nextSlide" style="display: none"></button>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let currentSlideIndex = 0;
+
+      const slides = document.querySelectorAll(".slide");
+      const progressBar = document.getElementById("progressBar");
+
+      const showSlide = (index) => {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+        updateProgressBar(index);
+      };
+
+      const updateProgressBar = (index) => {
+        const progress = ((index + 1) / slides.length) * 100;
+        progressBar.style.width = progress + "%";
+      };
+
+      const onClickNextSlide = () => {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+
+      const onClickPrevSlide = () => {
+        currentSlideIndex =
+          (currentSlideIndex - 1 + slides.length) % slides.length;
+        showSlide(currentSlideIndex);
+      };
+
+      document
+        .getElementById("prevSlide")
+        .addEventListener("click", onClickPrevSlide);
+
+      document
+        .getElementById("nextSlide")
+        .addEventListener("click", onClickNextSlide);
+
+      const iframe = document.getElementById("iframeDisplay");
+      const overlay = document.getElementById("overlay");
+
+      const showIframe = (src) => {
+        iframe.src = src;
+        iframe.style.display = "block";
+        overlay.style.display = "block";
+      };
+
+      const clickEventHandler = () => {
+        let iconClassAndUrlData = [
+          {
+            className: ".icon-4-1",
+            url: "https://kuula.co/share/hbJRL?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-6-1",
+            url: "https://kuula.co/share/hbJym?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-1",
+            url: "https://kuula.co/share/hbJBJ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-2",
+            url: "https://kuula.co/share/hbJSy?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-3",
+            url: "https://kuula.co/share/hbJQQ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-7-4",
+            url: "https://kuula.co/share/hbJyZ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-10-1",
+            url: "https://kuula.co/share/hbJzT?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-10-2",
+            url: "https://kuula.co/share/hbJzt?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-10-3",
+            url: "https://kuula.co/share/hbJQf?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-10-4",
+            url: "https://kuula.co/share/hbJQX?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-10-5",
+            url: "https://kuula.co/share/hbJrJ?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-1",
+            url: "https://kuula.co/share/hbJyT?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+          },
+          {
+            className: ".icon-12-2",
+            url: "https://kuula.co/share/hbJzq?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+          {
+            className: ".icon-12-3",
+            url: "https://kuula.co/share/hbJz7?logo=0&info=1&fs=1&vr=1&sd=1&thumbs=1",
+          },
+        ];
+
+        iconClassAndUrlData.forEach((icon) => {
+          document
+            .querySelector(icon.className)
+            .addEventListener("click", () => {
+              showIframe(icon.url);
+            });
+        });
+      };
+
+      clickEventHandler();
+
+      const closeIframe = (e) => {
+        if (
+          !iframe.contains(e.target) &&
+          !e.target.classList.contains("icon-4-1") &&
+          !e.target.classList.contains("icon-6-1") &&
+          !e.target.classList.contains("icon-7-1") &&
+          !e.target.classList.contains("icon-7-2") &&
+          !e.target.classList.contains("icon-7-3") &&
+          !e.target.classList.contains("icon-7-4") &&
+          !e.target.classList.contains("icon-10-1") &&
+          !e.target.classList.contains("icon-10-2") &&
+          !e.target.classList.contains("icon-10-3") &&
+          !e.target.classList.contains("icon-10-4") &&
+          !e.target.classList.contains("icon-10-5") &&
+          !e.target.classList.contains("icon-12-1") &&
+          !e.target.classList.contains("icon-12-2") &&
+          !e.target.classList.contains("icon-12-3") &&
+          true
+        ) {
+          iframe.style.display = "none";
+          overlay.style.display = "none";
+        }
+      };
+
+      window.addEventListener("click", closeIframe);
+      window.addEventListener("touchstart", closeIframe);
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") {
+          onClickPrevSlide();
+        }
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight") {
+          onClickNextSlide();
+        }
+      });
+
+      let startX;
+
+      const handleTouchStart = (e) => {
+        startX = e.touches[0].clientX;
+      };
+
+      const handleTouchEnd = (e) => {
+        if (!startX) return;
+
+        let endX = e.changedTouches[0].clientX;
+        let diffX = startX - endX;
+
+        if (diffX > 50) {
+          onClickNextSlide();
+        } else if (diffX < -50) {
+          onClickPrevSlide();
+        }
+
+        startX = null;
+      };
+
+      document.addEventListener("touchstart", handleTouchStart, false);
+      document.addEventListener("touchend", handleTouchEnd, false);
+
+      updateProgressBar(currentSlideIndex);
+    });
+  </script>
+</html>
